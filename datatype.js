@@ -47,5 +47,4 @@ console.log(number3)   //NaN
 const number4=-8/Infinity;
 console.log(number4)   //-0 <--***********
 
-
 console.log(-0+0)   //op 0
