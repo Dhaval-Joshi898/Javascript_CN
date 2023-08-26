@@ -28,3 +28,5 @@ console.log(typeof news)        //type is "object"   this is a bug in JS
 // Symbol(ES6/2015)
 
 //BigInt(ES2020)
+let num1=10n;           //ends with n   //number greate than 64 bit to stored used bigint
+console.log(typeof num1)   //type is bigint
