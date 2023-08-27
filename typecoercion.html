@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type Coercion</title>
+
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content:center;
+            height:100vh;
+
+        }
+        h1::selection{
+            color:white;
+            background-color:red;
+            z-index: 1;
+        }
+        div{
+            height: 400px;
+            width: 50%;
+            border: 2px solid red;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            
+        }
+        div:hover{
+            color:rgb(255, 39, 72);
+            background-color:antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Type Coercion in JS</h1>
+    </div>
+
+
+
+    <script src="typecoercion.js"></script>
+</body>
+</html>
